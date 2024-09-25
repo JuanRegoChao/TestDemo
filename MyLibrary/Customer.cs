@@ -2,7 +2,9 @@
 {
     public class Customer
     {
-        // Nuevo comentario de prueba
-        // Otro comentario más
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string FullName => $"{FirstName} {LastName}
+
     }
 }
