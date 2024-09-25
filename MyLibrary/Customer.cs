@@ -2,6 +2,6 @@
 {
     public class Customer
     {
-
+        // Nuevo comentario de prueba
     }
 }
