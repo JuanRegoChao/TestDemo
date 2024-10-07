@@ -17,5 +17,23 @@
             return d1 + d2;
         }
 
+        public IList<int> GetEvenNumbers(int start, int end)
+        {
+            /*
+            List<int> lista = new List<int>();
+
+            for (int i = start; i < end; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    lista.Add(i);
+                }
+            }
+            return lista;
+            */
+
+            return Enumerable.Range(start, end).Where(IsEven).ToList();
+        }
+
     }
 }
